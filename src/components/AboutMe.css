@@ -1,0 +1,91 @@
+/* AboutMe.css */
+
+.about-section {
+    text-align: center;
+    background-color:#AFDDE5;/*#09070f*/
+    color:#003135;
+    max-width: 900px;
+    margin: 100px auto 0 auto;
+
+  }
+  
+  .about-container {
+    font-size: 3.6rem;
+  }
+
+  .about-container h1{
+    margin: 30px 0 0 0;
+  }
+
+  .about-skill{
+    
+    font-size: 20px;
+    color: #024950;
+  }
+  
+  .achievements{
+    padding: 16px 0;
+    text-align: center;
+  }
+  
+  .achievements p{
+    color: #024950;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .btn{
+    margin-top: 10px;
+  }
+
+  .btn-dev{
+    background-color: #AFDDE5; 
+    color: #003135; 
+    margin-right: 20px;
+    padding: 10px 20px; 
+    border: 1px solid #003135; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-dev:hover{
+    color: #AFDDE5;
+    background-color: #003135;
+  }
+
+  .btn-dev>a{
+     text-decoration: none;
+     color: inherit;
+  }
+  
+  .btn-download{
+    background-color: #003135; 
+    color: #AFDDE5; 
+    padding: 10px 20px; 
+
+    border-radius: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+  }
+
+.btn-download:hover{
+border: 1px solid #5c5b5d;
+background-color: #AFDDE5;
+color:#003135;
+}
+
+.about-img{
+    margin-top: 20px;
+    background-color:black;
+}
+.abt-img{
+    height: 300px;
+}
+
+ 
+@media (max-width: 768px) {
+  .about-container {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #003135;
+  color: #AFDDE5;
+  padding: 20px 0;
+  position: fixed; /* Make the header fixed at the top */
+  width: 100%; /* Make the header take full width */
+  top: 0; /* Ensure the header sticks to the top */
+  z-index: 1000; /* Ensure the header stays on top of other content */
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%; /* Adjust the container width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.left-logo{
+  margin: 0 20px;
+  font-weight: bold;
+    font-family: pacifico;
+    font-size: large;
+}
+
+.nav {
+  text-align: right;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav ul li:last-child {
+  margin-right: 0;
+}
+
+.nav ul li a {
+  color: #AFDDE5;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav ul li a:hover {
+  color: #0FA4AF;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%; /* Adjust the container width for smaller screens */
+  }
+}

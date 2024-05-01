@@ -1,0 +1,57 @@
+.education {
+    max-width: 800px;
+    margin: 0 auto;
+   
+  }
+
+  .edu-hd,.edu-hd-des{
+    text-align: center;
+  }
+
+  .edu-hd{
+    font-size: 55px;
+    margin-bottom: 0;
+  }
+
+  .edu-hd-des{
+    font-size: 20px;
+    color: #003135;
+    margin: 0 0 25px 0;
+  }
+
+  .education-container{
+   margin: 0 90px;
+  }
+.edu-item>p{
+  height: 37px;
+}
+
+.edu-item{
+  color: #003135;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #003135;
+  border-radius: 20px;
+}
+
+.edu-item:hover{
+  color: #003135;
+  background-color: #AFDDE5;
+}
+
+.edu-item>p::before {
+    content: "|"; /* Use a single bar as the marker */
+    margin-right: 0.5em; /* Add some spacing between the marker and the text */
+}
+  
+  .education-container {
+    /* Adjust width and margins as needed */
+  }
+
+  
+  @media (max-width: 768px) {
+    .education-section {
+      padding: 10px;
+    }
+  }
+  

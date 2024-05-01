@@ -1,0 +1,95 @@
+.project{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.project>h1{
+  font-size: 55px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.project>p{
+  color:  #003135;
+  margin-bottom: 25px;
+}
+
+.project-card {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: 260px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #003135;
+    border-radius: 5px;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .skills {
+    margin-top: 10px;
+  }
+  
+  .skill {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 3px 8px;
+    border-radius: 3px;
+  }
+  
+  .project-name {
+    margin: 10px 0;
+  }
+  
+  .project-description {
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn-live,
+  .btn-github {
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn-live{
+    color: #003135;
+    border: 1px solid #003135;
+    background-color: #AFDDE5;
+  }
+
+  .btn-live:hover{
+    color: #AFDDE5;
+    background-color: #003135;
+  }
+  
+  .btn-github {
+    color: #AFDDE5;
+    background-color: #003135;
+  }
+
+  .btn-github:hover{
+    color: #003135;
+    background-color: #AFDDE5;
+    border: 1px solid #003135;
+  }
+  
+  .see-all-container{
+    text-align: center;
+  }
+
+ 

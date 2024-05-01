@@ -1,0 +1,56 @@
+/* Footer Styles */
+footer {
+    background-color: #024950;
+    color: #AFDDE5;
+    padding: 20px 0;
+  }
+  
+  .container-ftr {
+    max-width: 100%;
+    margin: 0 37%;
+    padding: 0 10px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #AFDDE5;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Font Awesome Icons */
+  .fab {
+    font-size: inherit;
+  }
+
+  .text{
+    padding: 10px 40px 0 40px;
+  }
+   
+  .icons{
+    margin: 0 20px;
+  }
+  

@@ -1,0 +1,55 @@
+.portfolio {
+  text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .portfolio>h1{
+    text-align: right;
+    margin-bottom: 0;
+    font-size: 55px;
+  }
+
+  .portfolio>p{
+    color:  #003135;
+    text-align: right;
+    margin-bottom: 25px;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    background-color: #003135;
+    color: #AFDDE5;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+.skill:hover{
+  border: 1px solid#003135;
+  background-color: #AFDDE5;
+    color: #003135;
+}
+
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid #0FA4AF;
+    background-color: #0FA4AF;
+    color: #003135;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    color: #AFDDE5;
+    background-color: #003135;
+    
+  }
+  

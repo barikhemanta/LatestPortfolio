@@ -1,0 +1,44 @@
+/* styles.css */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-container h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-container textarea {
+    height: 150px;
+  }
+  
+  .form-container button {
+    background-color: #0FA4AF;
+    color: #003135;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #AFDDE5;
+  }
+  
+  .form-status {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
